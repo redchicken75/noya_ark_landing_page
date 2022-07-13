@@ -8,11 +8,11 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
-  --header-shadow: #000 0px 0px 5px;
+  --bg-color: #FEFBEA;
+  --font-color: #000000;
+  --btn-bg-color: #c1272f;
+  --accent-color: #ffd2d2;
+  --header-shadow: #000 0px 0px 3px;
 }
 
 * {
@@ -141,7 +141,7 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 #9b4b4b;
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
