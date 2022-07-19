@@ -4,6 +4,20 @@ const countDownTime = new Date(
   clockdiv.getAttribute("data-date")
 ).getTime();
 
+// console.log(countDownTime);
+const currentDate = new Date();
+const date2 = new Date(countDownTime);
+console.log(currentDate.toString());
+console.log(date2.toString());
+if(countDownTime <= Date.now()) {
+  console.log("It's time");
+  window.location = "pages/frontpage.html";
+} else {
+
+}
+
+// Set interval function used to call the function at every interval
+// The function if called every 1000ms 
 const countdownfunction = setInterval(function () {
   const now = new Date().getTime();
   const diff = countDownTime - now;
