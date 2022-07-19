@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Saira+Stencil+One&family=VT323&display=swap');
 
 /* GLOBAL STYLES */
 
@@ -34,9 +35,9 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
 }
 
 /* HEADER */
@@ -166,7 +167,7 @@ section {
 /* FRONT PAGE */ 
 .nft-name h1{
   font-family: 'Rock Salt', cursive;
-  font-size: 5.2rem;
+  font-size: 4.5rem;
 }
 
 .front-page-photo {
@@ -189,6 +190,47 @@ section {
   width: 475px;
 }
 
+/* NAV LINKS */
+
+.nav-links {
+  flex: 1;
+  text-align: left;
+  background: transparent;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 40px;
+  position: relative;
+  font-size: 20px;
+  background: transparent;
+}
+
+.nav-links ul li a {
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+  background: transparent;
+}
+
+.nav-links ul li :hover {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+.nav-links ul li ::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #000;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li :hover ::after{
+  width: 100%;
+}
 
 
 /* MEDIA QUERIES */
