@@ -10,8 +10,8 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #FEFBEA;
-  --font-color: #000000;
+  --bg-color: #00163f;
+  --font-color: #c1272f;
   --btn-bg-color: #c1272f;
   --accent-color: #ffd2d2;
   --header-shadow: #000 0px 0px 3px;
@@ -208,7 +208,7 @@ section {
 }
 
 .nav-links ul li a {
-  color: rgb(5, 5, 5);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   background: transparent;
 }
