@@ -1,15 +1,23 @@
-# Basic No-Ya arkeologists 
+# Prudent
 
-## Instructions
+Beautiful, Fast landing page template for your next mobile project - [Live Preview](https://prudent.netlify.com)
 
-- Clone or download zipped code
-- Update `index.html` file
-  - \<title\>
-  - favicon images
-  - Logo
-  - Social Links
-  - Countdown `data-date`
-  - Heading and paragraph text
-- Update `style.css` file
-  - Fonts
-  - Colors
+## Features
+
+- Almost 0 JavaScript
+- Sleek design
+- Highly responsive
+- Optimized images
+- Lighthouse score of 98
+
+## Todo
+
+- [ ] Animate hamburger & mobile navigation
+- [x] Add credits for UI screenshots
+- [x] Make top left section a link
+
+## Contributing
+
+This is a WIP, you can report issues you find or send a pull request to fix them.
+
+Happy hacking 🎉🎉🎉

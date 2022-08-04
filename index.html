@@ -1,105 +1,574 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>No-Ya Arkeologists
-    </title>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/x-icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/x-icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/x-icon/favicon-16x16.png">
-    <link rel="manifest" href="images/x-icon/site.webmanifest">
-    <link rel="mask-icon" href="images/x-icon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#fefbea">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Noya-Arkeologists</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="logo">
+    <nav class="nav">
+      <div class="nav__container container">
+        <div class="nav__left">
           <a href="/">
-            <img src="/images/x-icon/favicon-32x32.png" alt="logo" />
+            <img src="/imgs/logo.png" alt="" width="50" height="50">
+
+            <!-- <span class="nav__logo-name">Prudent</span> -->
           </a>
         </div>
-        <div class="menu">
-          <a
-            href="https://discord.com/invite/WsGYkk7e3Z"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/discord.svg" alt="Discord" width="25" height="25"/>
-          </a>
-          <a
-            href="https://twitter.com/No_ya_ark"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/twitter.svg" alt="Twitter" width="25" height="25"/>
-          </a>
-          <a
-            href="https://opensea.io/collection/codecats"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/instagram-cropped.svg" alt="Instagram" width="25" height="25"/>
-          </a>
-          <a
-            href="https://opensea.io/collection/codecats"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/opensea.svg" alt="Opensea" width="25" height="25"/>
-          </a>
-          <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Wallet</span>
-          </button>
+        <div class="nav__right">
+          <button class="nav__hamburger" aria-label="Menu"></button>
+          <ul class="nav__nav-desktop">
+            <li class="nav__desktop-item">
+              <a
+              href="https://discord.com/invite/WsGYkk7e3Z"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <img src="/imgs/header/discord.svg" alt="Discord" width="25" height="25"/>
+              </a>
+            </li>
+            <li class="nav__desktop-item">
+              <a
+                href="https://twitter.com/No_ya_ark"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/imgs/header/twitter.svg" alt="Twitter" width="25" height="25"/>
+              </a>
+            </li>
+            <li class="nav__desktop-item">
+              <a
+                href="https://opensea.io/collection/codecats"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/imgs/header/opensea.svg" alt="Opensea" width="25" height="25"/>
+              </a>
+            </li>
+            <li class="nav__desktop-item">
+              <a
+                href="https://www.instagram.com/boardtheark999/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/imgs/header/instagram.svg" alt="Instagram" width="25" height="25"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="nav__mobile-nav">
+        <div class="nav__mobile-nav container">
+          <ul class="nav__mobile-links">
+            <li class="nav__mobiile-item">
+              <a href="#" class="nav__mobile-link">Home</a>
+            </li>
+            <li class="nav__mobiile-item">
+              <a href="#" class="nav__mobile-link">App Store</a>
+            </li>
+            <li class="nav__mobiile-item">
+              <a
+                href="https://github.com/vickOnRails/Prudent"
+                targe="_blank"
+                rel="noopener noreferrer"
+                class="nav__mobile-link"
+                >See Github</a
+              >
+            </li>
+            <li class="nav__mobiile-item">
+              <a href="#" class="nav__mobile-link">Features</a>
+            </li>
+            <li class="nav__mobiile-item">
+              <a href="#" class="nav__mobile-link">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__text">
+          <h1 class="header__heading-text">
+            Noya-Arkeologists
+          </h1>
+          <p class="header__text-text">
+            The revival of stone age
+          </p>
+
+          <!-- <div class="btn-group">
+            <a href="" class="btn">
+              App Store
+            </a>
+            <a
+              href="https://github.com/vickOnRails/Prudent"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary"
+            >
+              See Github
+            </a>
+          </div> -->
+        </div>
+        <div class="header__img">
+          <picture>
+            <source
+              media="(max-width: 560px)"
+              srcset="./imgs/title-ui.png"
+            />
+            <img
+              loading="lazy"
+              src="./imgs/title-ui.png"
+              alt="Mobile Image"
+              class="img-screen-ui"
+            />
+          </picture>
         </div>
       </div>
     </header>
+    <main>
+      <section class="section speed intro">
+        <div class="section__container container" data-aos="fade-up">
+          <div class="section__text-content">
+            <h2 class="secon_section__heading">
+              <small class="section__heading-small">WHY YOU SHOULD CARE</small>
+              Intro
+            </h2>
+            <p class="section__text">
+              Our architecture is built using the most suitable technologies for
+              fast, crystal clear, zero spinner video experiences.
+            </p>
+            <!-- <a href="#" class="section__link with-arrow"
+              >Read about our Infrastructure</a
+            > -->
+          </div>
+          <div class="section__img">
+            <picture>
+              <source
+                media="(max-width : 560px)"
+                srcset="./imgs/intro-ui.png"
+              />
+              <img
+                loading="lazy"
+                src="./imgs/intro-ui.png"
+                alt="Mobile Image"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
 
-    <section class="container">
-      <div class="owner-status"></div>
-      <div class="countdown">
-        <ul
-          id="countdown"
-          class="count-down"
-          data-date="19 Jul 2022 14:25:00 UTC"
-        >
-          <li class="clock-item">
-            <span class="count-number days">20</span>
-            <p class="count-text">Days</p>
-          </li>
+      <!-- <section class="section privacy">
+        <div class="section__container container" data-aos="fade-up">
+          <div class="section__text-content">
+            <h2 class="section__heading">
+              <small class="section__heading-small">WHY YOU SHOULD CARE</small>
+              Privacy & Security embedded
+            </h2>
+            <p class="section__text">
+              Our company is at the centre of privacy and security ethics. No
+              calls are recorded. All your data is encrypted meaning, we don't
+              even know what you'll talk about.
+            </p>
+            <a href="#" class="section__link with-arrow"
+              >Read about our Infrastructure</a
+            >
+          </div>
+          <div class="section__img">
+            <picture>
+              <source
+                media="(max-width : 560px)"
+                srcset="./imgs/privacy-ui-mobile.png"
+              />
+              <img
+                loading="lazy"
+                src="./imgs/privacy-ui-desktop.png"
+                alt="Mobile Image"
+                width="100%"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <hr />
+      </div> -->
 
-          <li class="clock-item">
-            <span class="count-number hours">20</span>
-            <p class="count-text">Hour</p>
-          </li>
+      <section class="section road_map">
+        <div class="section__container container">
+          <h2 class="section__heading text-centered">
+            Road Maps
+          </h2>
 
-          <li class="clock-item">
-            <span class="count-number minutes">20</span>
-            <p class="count-text">Min</p>
-          </li>
+          <section class="road_map">
+            <article class="road_map__feature text-centered" data-aos="fade-up">
+              <div class="road_map__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-video road_map__feather-video"
+                >
+                  <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                </svg>
+              </div>
+              <h3 class="road_map__feature-heading">Pre-order</h3>
+              <p class="road_map__feature-text">
+                You can record & save sections of your calls for later. You can
+                record & save sections of your calls for later
+              </p>
+              <!-- <a href="#" class="features__cta with-arrow">Try it Here</a> -->
+            </article>
 
-          <li class="clock-item">
-            <span class="count-number seconds">20</span>
-            <p class="count-text">Sec</p>
-          </li>
-        </ul>
-        <h1>NFT Drop Coming Soon!!</h1>
-               
-        <p>A new batch forgotten fossil will be revive very soon!</p>
-        <a href="https://discord.com/invite/WsGYkk7e3Z" target="_blank" rel="noopener noreferrer" class="hero-btn btn"
-          ><span>Join the Community</span>
-        </a>
-      </div>
-    </section>
+            <article class="road_map__feature text-centered" data-aos="fade-up">
+              <div class="road_map__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-video road_map__feather-video"
+                >
+                  <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                </svg>
+              </div>
+              <h3 class="road_map__feature-heading">Launch</h3>
+              <p class="road_map__feature-text">
+                Video call up to 5 persons at once. No performance differences.
+                Video call up to 5 persons at once.
+              </p>
+              <!-- <a href="#" class="features__cta with-arrow">Try it Here</a> -->
+            </article>
 
-    <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
-    <script src="js/countdown.js"></script>
-    <script src="js/app.js"></script>
+            <article class="road_map__feature text-centered" data-aos="fade-up">
+              <div class="road_map__icon">
+                <svg
+                  width="24"
+                  height="20"
+                  viewBox="0 0 24 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="road_map__feather-video"
+                >
+                  <path
+                    d="M17 18.0359V16.143C17 15.1389 16.5786 14.176 15.8284 13.466C15.0783 12.756 14.0609 12.3572 13 12.3572H5C3.93913 12.3572 2.92172 12.756 2.17157 13.466C1.42143 14.176 1 15.1389 1 16.143V18.0359"
+                    stroke="#F15C41"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9 8.57153C11.2091 8.57153 13 6.87659 13 4.78577C13 2.69495 11.2091 1 9 1C6.79086 1 5 2.69495 5 4.78577C5 6.87659 6.79086 8.57153 9 8.57153Z"
+                    stroke="#F15C41"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M23 18.0359V16.1431C22.9993 15.3043 22.7044 14.4895 22.1614 13.8266C21.6184 13.1636 20.8581 12.6902 20 12.4805"
+                    stroke="#F15C41"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16 1.12305C16.8604 1.33155 17.623 1.80515 18.1676 2.46919C18.7122 3.13322 19.0078 3.94992 19.0078 4.79053C19.0078 5.63113 18.7122 6.44783 18.1676 7.11187C17.623 7.7759 16.8604 8.2495 16 8.45801"
+                    stroke="#F15C41"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="road_map__feature-heading">Merch Giveaway</h3>
+              <p class="road_map__feature-text">
+                You can record & save sections of your calls for later. You can
+                record & save sections of your calls for later
+              </p>
+              <!-- <a href="#" class="features__cta with-arrow">Try it Here</a> -->
+            </article>
+
+            <article class="road_map__feature text-centered" data-aos="fade-up">
+              <div class="road_map__icon">
+                <svg
+                  width="22"
+                  height="20"
+                  viewBox="0 0 22 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="road_map__feather-video"
+                >
+                  <path
+                    d="M21 9.51807H17L14 18.0361L8 1L5 9.51807H1"
+                    stroke="#F15C41"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="road_map__feature-heading">Extinction Party</h3>
+              <p class="road_map__feature-text">
+                You can record & save sections of your calls for later. You can
+                record & save sections of your calls for later
+              </p>
+              <!-- <a href="#" class="features__cta with-arrow">Try it Here</a> -->
+            </article>
+
+            <!-- <article class="features__feature text-centered" data-aos="fade-up">
+              <div class="features__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-video features__feather-video"
+                >
+                  <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                </svg>
+              </div>
+              <h3 class="features__feature-heading">Mentions</h3>
+              <p class="features__feature-text">
+                You can record & save sections of your calls for later. You can
+                record & save sections of your calls for later
+              </p>
+              <a href="#" class="features__cta with-arrow">Try it Here</a>
+            </article> -->
+
+            <article class="road_map__feature text-centered" data-aos="fade-up">
+              <div class="road_map__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-video road_map__feather-video"
+                >
+                  <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                </svg>
+              </div>
+              <h3 class="road_map__feature-heading">Noya-Arkeologists 2.0 Annoucement</h3>
+              <p class="road_map__feature-text">
+                You can record & save sections of your calls for later. You can
+                record & save sections of your calls for later
+              </p>
+              <!-- <a href="#" class="features__cta with-arrow">Try it Here</a> -->
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <section class="section cta prim-background">
+        <div class="patterns-left"></div>
+        <div class="patterns-right"></div>
+        <div class="cta__container container text-centered">
+          <h2 class="secon_section__heading">
+            CREW
+            <small class="section__heading-small">The team that keep the ark afloat</small>
+          </h2>
+          <section>
+            <div class="section__container crew_section">
+              <div class="crew_profile__item">
+                <img src="/imgs/profile/place-holder.jpg" alt="crew_profile">
+                <div class="crew_profile_body">
+                  <h5>HJ</h5>
+                  <div class="crew_profile_descripton">
+                    <p>In charge on tech related</p>
+                  </div>
+                </div>
+              </div>
+              <div class="crew_profile__item">
+                <img src="/imgs/profile/place-holder.jpg" alt="crew_profile">
+                <div class="crew_profile_body">
+                  <h5>Nelson</h5>
+                  <div class="crew_profile_descripton">
+                    <p>Marketing & NFT expert</p>
+                  </div>
+                </div>
+              </div>
+              <div class="crew_profile__item">
+                <img src="/imgs/profile/place-holder.jpg" alt="crew_profile">
+                <div class="crew_profile_body">
+                  <h5>ZiJin</h5>
+                  <div class="crew_profile_descripton">
+                    <p>The most artistic person I know</p>
+                  </div>
+                </div>
+              </div>
+              <div class="crew_profile__item">
+                <img src="/imgs/profile/place-holder.jpg" alt="crew_profile">
+                <div class="crew_profile_body">
+                  <h5>Cucumber</h5>
+                  <div class="crew_profile_descripton">
+                    <p>The story teller</p>
+                  </div>
+                </div>
+              </div>
+              <div class="crew_profile__item">
+                <img src="/imgs/profile/place-holder.jpg" alt="crew_profile">
+                <div class="crew_profile_body">
+                  <h5>Paul</h5>
+                  <div class="crew_profile_descripton">
+                    <p>NFT expert</p>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </section>
+        </div>
+        
+      </section>
+    </main>
+
+    <footer class="section footer">
+      <!-- <section class="footer__container container">
+        <article class="footer__links">
+          <p class="footer__links-heading">Product</p>
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Product</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Product</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Product</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Product</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="footer__links">
+          <p class="footer__links-heading">Company</p>
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Careers</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Write for us</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Team</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="footer__links">
+          <p class="footer__links-heading">Legal</p>
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Terms & Conditions</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Privacy Policy</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Legal Documents</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Copyright</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="footer__links">
+          <p class="footer__links-heading">Social</p>
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Facebook</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Twitter</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Instagram</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="#" class="footer__link">Youtube</a>
+            </li>
+          </ul>
+        </article>
+      </section> -->
+      <section class="container text-centered">
+        <p>
+          <small>
+            Copyright &copy; 2022 Noya-Arkeologists 
+          </small
+          >
+        </p>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      var hamburger = document.querySelector(".nav__hamburger");
+      var body = document.querySelector("body");
+      var mobileNavigation = document.querySelector(".nav__mobile-nav");
+
+      AOS.init();
+
+      function toggleMobileNav(e) {
+        body.classList.toggle("mobile-nav-open");
+      }
+
+      function isModalOpen() {
+        return body.classList.contains("mobile-nav-open") ? true : false;
+      }
+
+      // FIXME: Find a better way to close modal when body is clicked
+      function closeMobileMenu(e) {
+        console.log(
+          e.target.classList.contains("nav__mobiile-item") ||
+            e.target.classList.contains("nav__hamburger") ||
+            e.target.classList.contains("nav__container")
+        );
+        if (
+          isModalOpen() &&
+          (e.target.classList.contains("nav__mobiile-item") ||
+            e.target.classList.contains("nav__hamburger"))
+        )
+          return;
+
+        body.classList.remove("mobile-nav-open");
+      }
+
+      window.addEventListener("click", closeMobileMenu);
+
+      hamburger.addEventListener("click", toggleMobileNav);
+    </script>
   </body>
 </html>
