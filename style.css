@@ -124,7 +124,7 @@ hr {
   position: fixed;
   width: 100%;
   z-index: 3;
-  background: var(--black);
+  background: var(--prim-color);
   top: 0;
 }
 .nav__container {
