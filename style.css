@@ -217,7 +217,7 @@ body.mobile-nav-open .nav__mobile-nav {
 .header__heading-text {
   font-family: 'Caesar Dressing', cursive;
   font-size: 4.5rem;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 /* utilty */
@@ -431,18 +431,17 @@ body.mobile-nav-open .nav__mobile-nav {
   flex-direction: column;
 }
 
-.crew_profile_body {
-  padding: 0 0.2rem;
-}
-
 .crew_profile_body h5 {
   /* body title */
+  padding: 0 0.2rem;
   margin-top: 1rem;
 }
 
 .crew_profile_descripton {
+  height: 55px;
   font-size: 0.75rem;
-  flex: 1 1 0;
+  padding: 0 0.2rem;
+  flex: 1 1 auto;
 }
 
 /* Footer */
