@@ -48,10 +48,9 @@ html {
 }
 
 a {
-  text-decoration: underline;
   color: var(--prim-color);
   position: relative;
-  display: inline-block;
+  display: flex;  
   transition: 0.25s transform;
 }
 a:hover {
