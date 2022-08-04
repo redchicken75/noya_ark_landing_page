@@ -215,7 +215,6 @@ body.mobile-nav-open .nav__mobile-nav {
 
 .header__heading-text {
   font-family: 'Caesar Dressing', cursive;
-  font-size: 4.5rem;
   margin-bottom: 0.5em;
 }
 
@@ -540,7 +539,7 @@ footer p {
     flex: 0 30%;
   }
   h1 {
-    font-size: 3.8em;
+    font-size: 4.5rem;
   }
   h2 {
     font-size: 3em;
