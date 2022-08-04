@@ -124,9 +124,10 @@ hr {
   position: fixed;
   width: 100%;
   z-index: 3;
-  background: var(--prim-color);
+  background: #000918;
   top: 0;
 }
+
 .nav__container {
   display: flex;
   justify-content: space-between;
