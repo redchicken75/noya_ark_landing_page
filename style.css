@@ -52,6 +52,7 @@ a {
   position: relative;
   display: flex;  
   transition: 0.25s transform;
+  justify-content: center;
 }
 a:hover {
   text-decoration: underline;
@@ -186,6 +187,7 @@ hr {
   margin-bottom: 0;
 }
 .nav__mobile-link {
+  font-family: 'Caesar Dressing', cursive;
   text-decoration: none;
 }
 .nav__mobile-link:hover,
