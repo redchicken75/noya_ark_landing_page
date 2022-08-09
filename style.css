@@ -131,12 +131,12 @@ hr {
 
 .nav__container {
   display: flex;
-  /* justify-content: space-between; */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  justify-content: space-between;
   max-width: 1800px;
 }
 .nav__right {
   display: flex;
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   justify-content: center;
   align-items: center;
 }
