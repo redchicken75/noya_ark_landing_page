@@ -142,7 +142,7 @@ hr {
 .nav__left a {
   display: flex;
   text-decoration: none;
-  align-items: center;
+  align-items: start;;
 }
 .nav__left a:hover,
 .nav__left a:active {
