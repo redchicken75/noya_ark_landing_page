@@ -132,7 +132,7 @@ hr {
 .nav__container {
   display: flex;
   /* display: -webkit-flex; NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 1800px;
 }
 .nav__right {
@@ -517,8 +517,8 @@ footer p {
     margin-bottom: 0;
   }
   .nav__desktop-item {
-    display: block;
-    margin: 0 1.25em;
+    margin: 0 0;
+    /* margin: 0 1.25em; */
   }
   .speed .section__text-content {
     order: 2;
