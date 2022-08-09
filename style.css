@@ -525,7 +525,7 @@ footer p {
     margin-right: 1.5em;
   }
   .img-screen-ui {
-    width: 500px;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
   }
