@@ -130,9 +130,18 @@ hr {
 }
 
 .nav__container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  /* display: -webkit-flex; NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   max-width: 1800px;
 }
 .nav__right {
