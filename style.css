@@ -517,8 +517,8 @@ footer p {
     margin-bottom: 0;
   }
   .nav__desktop-item {
-    margin: 0 0;
-    /* margin: 0 1.25em; */
+    /* margin: 0 0; */
+    margin: 0 1.25em;
   }
   .speed .section__text-content {
     order: 2;
