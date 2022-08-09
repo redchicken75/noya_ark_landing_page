@@ -142,8 +142,10 @@ hr {
 .nav__left a {
   display: flex;
   text-decoration: none;
-  align-items: start;;
-}
+  align-items: flex-start;
+  width: 70px;
+  height: 70px;
+} 
 .nav__left a:hover,
 .nav__left a:active {
   text-decoration: underline;
