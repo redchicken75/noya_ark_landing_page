@@ -423,9 +423,6 @@ body.mobile-nav-open .nav__mobile-nav {
   align-items: center;
 }
 
-.crew_profile__item img{
-  width: auto;
-}
 .crew_profile__item {
   background-color: #000000;
   max-width: 200px;
