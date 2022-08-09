@@ -131,7 +131,7 @@ hr {
 
 .nav__container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   max-width: 1800px;
 }
 .nav__right {
