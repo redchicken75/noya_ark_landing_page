@@ -115,7 +115,7 @@ hr {
   border-bottom: 1px solid #ffe4df;
 }
 .container {
-  padding: 0 13%;
+  padding: 0 3%;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -141,8 +141,7 @@ hr {
   align-content: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
-  max-width: 1800px;
+  align-items: center;  
 }
 .nav__right {
   display: -ms-flexbox;
