@@ -50,7 +50,7 @@ html {
 a {
   color: var(--prim-color);
   position: relative;
-  display: flex;  
+  display: inline-block;  
   transition: 0.25s transform;
   justify-content: center;
 }
