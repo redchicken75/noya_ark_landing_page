@@ -103,7 +103,7 @@ h2 {
   font-size: 1.88em;
 }
 img {
-  width: 100%;
+  max-width: 100%;
 }
 body {
   margin-top: 4em;
