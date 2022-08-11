@@ -140,7 +140,7 @@ hr {
   align-content: center;
   align-items: center;
 }
-.nav__left {
+.nav__left a{
   display: flex;
   text-decoration: none;
   align-items: flex-start;
