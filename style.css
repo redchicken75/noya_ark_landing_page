@@ -141,7 +141,7 @@ hr {
   align-items: center;
 }
 .nav__left a{
-  display: flex;
+  /* display: flex; */
   text-decoration: none;
   align-items: flex-start;
   width: 70px;
