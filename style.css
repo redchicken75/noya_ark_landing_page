@@ -398,7 +398,7 @@ body.mobile-nav-open .nav__mobile-nav {
 
 .prim_header__text-text,
 .prim_section__text {
-  max-width: 500px;
+  max-width: 650px;
   color: #ffffff;
 }
 
@@ -440,7 +440,7 @@ body.mobile-nav-open .nav__mobile-nav {
 }
 
 .crew_profile_descripton {
-  height: 55px;
+  height: 72px;
   font-size: 0.75rem;
   padding: 0 0.2rem;
   flex: 1 1 auto;
